@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetEtiquetaArticulo" targetNamespace="http://tempuri.org/DataSetEtiquetaArticulo.xsd" xmlns:mstns="http://tempuri.org/DataSetEtiquetaArticulo.xsd" xmlns="http://tempuri.org/DataSetEtiquetaArticulo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetEtiquetaArticulo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetEtiquetaArticulo" msprop:Generator_UserDSName="DataSetEtiquetaArticulo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbl_eti_articulo" msprop:Generator_TableClassName="tbl_eti_articuloDataTable" msprop:Generator_TableVarName="tabletbl_eti_articulo" msprop:Generator_TablePropName="tbl_eti_articulo" msprop:Generator_RowDeletingName="tbl_eti_articuloRowDeleting" msprop:Generator_RowChangingName="tbl_eti_articuloRowChanging" msprop:Generator_RowEvHandlerName="tbl_eti_articuloRowChangeEventHandler" msprop:Generator_RowDeletedName="tbl_eti_articuloRowDeleted" msprop:Generator_UserTableName="tbl_eti_articulo" msprop:Generator_RowChangedName="tbl_eti_articuloRowChanged" msprop:Generator_RowEvArgName="tbl_eti_articuloRowChangeEvent" msprop:Generator_RowClassName="tbl_eti_articuloRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
